@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    color: darkgray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: auto;
+}
+
+main,
+header {
+    margin-left: 124px;
+}
+
+.header-text-div {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #000000;
+
+    width: 365px;
+    height: 93px;
+    margin-top: 91px;
+}
+
+.first-image {
+    margin-left: 190px;
+}
+
+main div p {
+    width: 662px;
+    height: 374px;
+    margin-top: 18px;
+
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    color: #000000;
+}
+
+.span-container {
+    display: flex;
+    gap: 94px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.span-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+}
+
+main .second-div {
+    display: flex;
+    gap: 132px;
+    align-items: center;
+    margin-top: 94px;
+}
+
+
+.inline-block-span {
+    display: inline-block;
+
+    width: 150px;
+    height: 39px;
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+    color: #000000;
+}
+
+.span-container p {
+    width: 150px;
+    height: 39px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.source-div {
+    width: 210px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+    justify-content: center;
+
+    border: 3px solid rgb(20, 127, 181);
+    border-radius: 20px;
+}
